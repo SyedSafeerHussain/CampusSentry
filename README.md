@@ -24,8 +24,6 @@ CampusSentry is an automation bot built to **track and notify students** about a
 The bot scrapes a local CSV (or database), checks for changes, and **notifies the student via WhatsApp** using Twilio’s API.
 
 ---
-> 🔔 Get notified on WhatsApp when student data is updated!
-![WhatsApp Result Update](images/image2.png)
 
 ## 🚀 Features
 
@@ -126,6 +124,10 @@ Marks Updated: 14 → 17 ✅
 ```
 
 No spam. Only fresh updates 💡
+
+> 🔔 Get notified on WhatsApp when student data is updated!
+![WhatsApp Result Update](images/image2.png)
+
 
 ---
 
