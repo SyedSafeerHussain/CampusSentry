@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>MyBot Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <span class="navbar-brand mb-0 h1">🎓 CampusSentry Dashboard</span>
+    </nav>
+
+    <!-- Page Title -->
+    <h2 class="mb-3">📊 Assessment Data</h2>
+
+    <!-- Data Table -->
+    <div class="table-responsive">
+        {{ table|safe }}
+    </div>
+
+    <!-- Optional Summary Section -->
+    {% if total_marks %}
+    <div class="mt-4">
+        <h5>Summary</h5>
+        <ul class="list-group w-25">
+            <li class="list-group-item d-flex justify-content-between">
+                <strong>Total Marks:</strong> <span>{{ total_marks }}</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <strong>Average Marks:</strong> <span>{{ average_marks }}</span>
+            </li>
+        </ul>
+    </div>
+    {% endif %}
+</body>
+</html>
