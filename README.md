@@ -2,16 +2,15 @@
 
 ![Project Banner](images/image.png)
 
-> 🔔 Get notified on WhatsApp when student data is updated!
-![WhatsApp Result Update](images/image2.png)
+
 ---
 
 ## 🎓 Project by Safeer Hussain
-
-**FAST NUCES (National University of Computer and Emerging Sciences)**
+Superior University
 Department of Computer Science
 Semester: 3rd
 Course: Software Engineering & Automation Practice
+
 
 ---
 
@@ -22,6 +21,8 @@ CampusSentry is an automation bot built to **track and notify students** about a
 The bot scrapes a local CSV (or database), checks for changes, and **notifies the student via WhatsApp** using Twilio’s API.
 
 ---
+> 🔔 Get notified on WhatsApp when student data is updated!
+![WhatsApp Result Update](images/image2.png)
 
 ## 🚀 Features
 
