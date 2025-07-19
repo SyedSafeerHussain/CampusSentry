@@ -8,7 +8,7 @@
 ## 🎓 Project by Safeer Hussain
 Superior University
 
-Department of Computer Science
+Department of Artificial Intelligence
 
 Semester: 3rd
 
