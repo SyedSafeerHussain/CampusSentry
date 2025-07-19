@@ -1,6 +1,6 @@
 # 📳 CampusSentry – Real-Time Student Updates Notifier
 
-![Project Banner](images/img.png)
+![Project Banner](images/image.png)
 
 > 🔔 Get notified on WhatsApp when student data is updated!
 ![WhatsApp Result Update](images/image2.png)
